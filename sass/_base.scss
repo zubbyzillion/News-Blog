@@ -6,7 +6,8 @@
 
 // COLORS //
 $primary-color: #2C0DB5;
-$backkground-color: #fcfbfb;
+$background-color: #fcfbfb;
+$color-white: #ffffff;
 
 
 /*-------------------------
@@ -29,7 +30,7 @@ html {
 }
 
 body {
-    color: $backkground-color;
+    color: $background-color;
 }
 
 .container {

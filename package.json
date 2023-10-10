@@ -4,6 +4,7 @@
   "description": "A News Blog",
   "main": "script.js",
   "scripts": {
+    "compile:sass": "node-sass sass/main.scss style.css -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
