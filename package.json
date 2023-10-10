@@ -1,0 +1,22 @@
+{
+  "name": "news-blog",
+  "version": "1.0.0",
+  "description": "A News Blog",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zubbyzillion/News-Blog.git"
+  },
+  "author": "Beluonwu-Ogbo Nzubechukwu .P",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zubbyzillion/News-Blog/issues"
+  },
+  "homepage": "https://github.com/zubbyzillion/News-Blog#readme",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
