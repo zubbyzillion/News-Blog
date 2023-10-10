@@ -1,0 +1,40 @@
+/*------------------------
+|   VARIABLES
+--------------------------*/
+
+// FONT FACE //
+
+// COLORS //
+$primary-color: #2C0DB5;
+$backkground-color: #fcfbfb;
+
+
+/*-------------------------
+|   BASE SETTINGS
+--------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; // 10px
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+body {
+    color: $backkground-color;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr repeat(12, minmax(min-content, 10rem)) 1fr;
+    max-width: 1500px;
+    margin: 0 auto;
+}
